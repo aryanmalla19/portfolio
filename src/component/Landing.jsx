@@ -5,7 +5,7 @@ import m from "../assets/FRONT END DEV.png"
 
 export default function Landing() {
   return (
-    <div className='flex w-11/12 mx-auto flex-row'>
+    <div className='flex'>
         <div className='flex w-8/12 flex-col'>
                 <img src={m} className='w-[700px] my-10' alt="" />
                 <p className='text-3xl my-6 text-main'>👋 Hello there, I'm Aryan</p>
