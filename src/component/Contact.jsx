@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import cartoon from "../assets/cartoon_right.svg"
 
 export default function Contact() {
     return (
@@ -7,7 +8,7 @@ export default function Contact() {
             <div className='w-4/12'>
                 <h1 className='text-main text-6xl font-bold my-3'>Get In Touch !</h1>
                 <p className='text-base text-main my-7'>Fill out the form and I will reach out, as soon as possible!</p>
-                {/* <img src="" alt="" /> */}
+                <img src={cartoon} alt="" />
             </div>
             <div className='w-7/12'>
                 <form method="post" className='w-11/12 mt-10 mx-auto flex flex-col'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from "react-icons/rx"
-
+import cartoon from "../assets/testimonialDoodle.svg"
 const data = [
     {
         name: "Krishu Karki",
@@ -40,13 +40,13 @@ export default function Testimonial() {
     }
     return (
 
-        <div className='flex my-14 justify-between'>
+        <div className='flex my-14 justify-around'>
             <div className='w-5/12'>
-                <h1 className='text-4xl text-main font-bold'>Testimonial</h1>
+                <h1 className='text-6xl text-main font-bold'>Testimonial</h1>
                 <p className='text-base text-main my-7'>Have a look what my clients think about my work!</p>
-                {/* <img src="" alt="" /> */}
+                <img className='w-9/12' src={cartoon} alt="" />
             </div>
-            <div className='w-6/12'>
+            <div className='w-7/12'>
                 <div className='flex flex-col relative w-11/12 mx-auto'>
                     {/* <img src={photo} className='rounded-lg w-[60px]' alt="" /> */}
                     <h2 className='text-xl text-main font-semibold text-center'>{data[currentIndex].name}</h2>

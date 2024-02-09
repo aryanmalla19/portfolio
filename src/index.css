@@ -5,3 +5,22 @@
 .d{
   color: #264446;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+.meow::-webkit-scrollbar {
+  width: 7px;
+  display: none;
+}
+.meow::-webkit-scrollbar-thumb {
+  background: hidden;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #FD562A;
+  border-radius: 5px;
+}

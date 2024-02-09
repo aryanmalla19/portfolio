@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         main: "#264446",
-        orange: "#FF914D",
+        orange: "#FD562A",
         villa: "#EFEEE5",
         hariyo:'#6CE5B1',
       },
@@ -16,5 +16,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 }
