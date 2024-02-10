@@ -12,13 +12,13 @@ export default function Contact() {
             </div>
             <div className='w-7/12'>
                 <form method="post" className='w-11/12 mt-10 mx-auto flex flex-col'>
-                    <label className='text-main text-xl font-semibold' for="name">Name</label>
+                    <label className='text-main text-xl font-semibold' htmlFor="name">Name</label>
                     <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="text" id="name" name="name" placeholder="Your name" required />
                     <br /><br />
-                    <label className='text-main text-xl font-semibold' for="email">Email</label>
+                    <label className='text-main text-xl font-semibold' htmlFor="email">Email</label>
                     <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="email" id="email" name="email" placeholder="youremail@meow.com" required />
                     <br /><br />
-                    <label className='text-main text-xl' for="message">Message</label>
+                    <label className='text-main text-xl' htmlFor="message">Message</label>
                     <textarea className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' id="message" name="message" placeholder="Write your message" required></textarea>
                     <br />
                 <Button name='Send' state={`${true}`}/>

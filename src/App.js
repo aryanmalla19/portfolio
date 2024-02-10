@@ -9,6 +9,10 @@ import Projects from './component/Projects';
 import Service from './component/Service';
 import Testimonial from './component/Testimonial';
 import TwoContainer from './component/TwoContainer';
+ const data = fetch('data.json')
+ .then(response => response.json())
+ .then(data => console.log(data));
+ console.log(data)
 function App() {
   return (
     <div>

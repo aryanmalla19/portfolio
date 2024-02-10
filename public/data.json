@@ -1,0 +1,115 @@
+{
+    "projects":[
+       {
+          "img":"/logo192.png",
+          "title":"HooBank",
+          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
+          "a":"https://aryanmalla19.github.io/hooBank_react"
+       },
+       {
+          "img":"/logo192.png",
+          "title":"OpenAI- GPT3",
+          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
+          "a":"https://aryanmalla19.github.io/gpt3_react"
+       },
+       {
+          "img":"/logo192.png",
+          "title":"Hemaj Online Shoping",
+          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
+          "a":"https://aryanmalla19.github.io/hema"
+       },
+       {
+          "img":"/logo192.png",
+          "title":"Bitcoin Blog",
+          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
+          "a":"https://aryanmalla19.github.io/bitcoin_website"
+       },
+       {
+          "img":"/logo192.png",
+          "title":"Camp On The Court",
+          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
+          "a":"https://aryanmalla19.github.io/camponthecourt"
+       }
+    ],
+    "testimonial":[
+       {
+          "img":"/logo192.png",
+          "name":"Krishu Karki",
+          "place":"Kathmandu, Nepal",
+          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+       },
+       {
+          "img":"/logo192.png",
+          "name":"Krishu ",
+          "place":"Kathmandu, Nepal",
+          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+       },
+       {
+          "img":"/logo192.png",
+          "name":"Aryan Karki",
+          "place":"Kathmandu, Nepal",
+          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+       },
+       {
+          "img":"/logo192.png",
+          "name":"Karki",
+          "place":"Kathmandu, Nepal",
+          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+       }
+    ],
+    "images":[
+       {
+          "skills":[
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             }
+          ]
+       },
+       {
+          "svg":[
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             },
+             {
+                "img":"/logo192.png"
+             }
+          ]
+       }
+    ]
+ }

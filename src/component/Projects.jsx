@@ -42,12 +42,12 @@ const projects_data = [
 export default function Projects() {
   return (
     <div className='w-9/12 mx-auto'>
-      {projects_data.map(e => {
+      {projects_data.map((e) => {
         return (
-          <a href={e.link} target='_blank'>
+          <a key={e.title} href={e.link} target='_blank'>
           <div className='mb-20'>
             <img className='w-full' src={e.photo} alt="" />
-            <h1 className='text-4xl font-bold text-main ml-1 mt-6'>{e.title}</h1>
+            <h1 className='text-4xl font-bold text-main ml-1 mt-3'>{e.title}</h1>
             <p className='text-lg text-main my-2'>{e.para}</p>
             <Button name="View Live" stats={`${false}`} />
           </div>
