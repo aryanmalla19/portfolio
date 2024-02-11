@@ -1,11 +1,23 @@
 import React from 'react'
 
-export default function TwoContainer() {
+export default function TwoContainer(data) {
+  const svg_img = data?.data
+  console.log(svg_img?.skills)
   return (
     <div className='my-20 flex'>
         <div className='w-6/12'>
             <h1 className='text-6xl text-main font-bold'>Skills</h1>
-
+            <div className='w-full flex flex-wrap m-5 items-center justify-start'>
+              {
+              svg_img?.skills.map((e)=>{
+                return(
+                  <div className='w-3/12 my-7'>
+                    <img className='w-5/12 ' src={e.img} alt="imgg" />
+                  </div>
+                )
+              })
+              }  
+            </div>
         </div>
         <div className='w-6/12 border-l-2 border-current pb-5'>
             <div className='w-10/12 mx-auto'>
