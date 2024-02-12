@@ -6,7 +6,7 @@ export default function TwoContainer(data) {
   return (
     <div className='my-20 flex lg:flex-row flex-col'>
         <div className='lg:w-6/12 w-full'>
-            <h1 className='text-6xl text-main font-bold'>Skills</h1>
+            <h1 className='text-4xl lg:text-6xl text-center lg:text-left text-main font-bold'>Skills</h1>
             <div className='w-full flex flex-wrap m-5 items-center justify-start'>
               {
               svg_img?.skills.map((e)=>{
