@@ -10,8 +10,8 @@ export default function Projects(data) {
           <a key={e.title} href={e.a} target='_blank' rel="noreferrer">
           <div className='lg:mb-20 mb-8'>
             <img className='w-full' src={e.img} alt="" />
-            <h1 className='text-4xl font-bold text-main ml-1 mt-3'>{e.title}</h1>
-            <p className='text-lg text-main my-2'>{e.details}</p>
+            <h1 className='text-2xl lg:text-4xl font-bold text-main ml-1 mt-3'>{e.title}</h1>
+            <p className='text-base lg:text-lg text-main my-2'>{e.details}</p>
             <Button name="View Live" stats={`${false}`} />
           </div>
           </a>
