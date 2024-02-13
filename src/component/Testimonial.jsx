@@ -6,6 +6,7 @@ import cartoon from "../assets/testimonialDoodle.svg"
 
 export default function Testimonial(testi_data) {
     const data = testi_data?.data
+    console.log(data)
     const [currentIndex, setCurrentIndex] = useState(0);
     const prev = () => {
         if (currentIndex !== 0) {
@@ -26,7 +27,7 @@ export default function Testimonial(testi_data) {
             </div>
             <div className='lg:w-7/12 w-full'>
                 <div className='flex flex-col relative w-11/12 mx-auto'>
-                    {/* <img src={photo} className='rounded-lg w-[60px]' alt="" /> */}
+                    <img src={data?.[currentIndex].img} className='rounded-full mx-auto w-[100px] mb-4 h-[100px] md:w-[150px] md:h-[150px]' alt="" />
                     <h2 className='text-xl text-main font-semibold text-center'>{data?.[currentIndex].name}</h2>
                     <h4 className='text-base text-main text-center my-2'>{data?.[currentIndex].place}</h4>
                     <p className='lg:my-7 my-2 text-sm text-main text-center'>{data?.[currentIndex].saying}</p>

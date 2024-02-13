@@ -3,7 +3,7 @@ import Button from './Button'
 
 export default function Service() {
     return (
-        <div className='my-20 w-full lg:w-10/12 mx-auto'>
+        <div id='service' className='my-20 w-full lg:w-10/12 mx-auto'>
             <h1 className='text-4xl lg:text-6xl text-center text-main font-bold mb-4'>Services</h1>
             <p className='text-base lg:text-lg text-center text-main'>Seen my work?</p>
             <p className='text-base lg:text-lg text-center text-main'>These are the services I've provided up there!</p>

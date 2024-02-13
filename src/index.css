@@ -5,6 +5,7 @@
 .d{
   color: #264446;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
@@ -14,11 +15,14 @@
   width: 7px;
   display: none;
 }
+
 .meow::-webkit-scrollbar-thumb {
   background: hidden;
-
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 ::-webkit-scrollbar-thumb {
   background: #FD562A;
