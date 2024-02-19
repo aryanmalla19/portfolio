@@ -6,7 +6,7 @@ export default function Gallery_page({data}) {
   return (
     <div>
         <Header/>
-        <Gallery data={data}/>
+        <Gallery />
     </div>
   )
 }

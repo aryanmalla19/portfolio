@@ -26,7 +26,7 @@ export default function Service() {
                 </div>
             </div>
             <div className='w-full flex mt-14 justify-center items-center'>
-            <Button name='Ask for quotation' state={`${true}`} />
+            <Button name='Ask for quotation' state={`${true}`} link="#contact" />
             </div>
         </div>
     )

@@ -36,26 +36,26 @@
           "img":"/images/testimonial_pic/hema_shah.jpg",
           "name":"Hema Shah",
           "place":"Kathmandu, Nepal",
-          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+          "saying":"Aryan is amazingly talented. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
        },
        {
           "img":"/images/testimonial_pic/bibek_saps.jpg",
           "name":"Bibek Sapkota",
-          "place":"Kathmandu, Nepal",
-          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+          "place":"Dhading, Nepal",
+          "saying":"Aryan's understanding of coding is truly impressive. He took my complicated website design and built it seamlessly, exceeding all my expectations for functionality and performance. It runs like a dream!"
        },
        {
           "img":"/images/testimonial_pic/bimal.jpg",
           "name":"Bimal Jung Karki",
           "place":"Kathmandu, Nepal",
-          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
+          "saying":"Aryan is a true web development rockstar! They possess a wealth of knowledge and are incredibly skilled at solving complex problems. My website is now user-friendly, fast, and secure, all thanks to their expertise."
        },
        {
-          "img":"/logo192.png",
-          "name":"Karki",
-          "place":"Kathmandu, Nepal",
-          "saying":"Varun is amazingly talented. He is patient and listens to customers needs and implements it as exactly as it was in the design. I loved working with him. I really thank him so much for developing my dream website so beautiful. I can’t thank you enough for being soo polite, kind and supportive throughout. You are just awesome, way to go! Definitely I am referring him to all of my friends. All the best!"
-       }
+          "img":"/images/testimonial_pic/sandesh.png",
+          "name":"Shandesh Khadka",
+          "place":"Toronto, Canada",
+          "saying":"Finding a talented web developer like Aryan is rare. They have a deep understanding of both front-end and back-end development, allowing them to create cohesive and well-rounded websites."
+        }
     ],
     "images":[
        {
@@ -104,6 +104,406 @@
                 "img":"/logo192.png"
              }
           ]
+       },
+       {
+         "gallery":[
+            {
+               "img":"/images/gallery/bb.webp",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb.jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (2).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (3).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (4).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (5).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (6).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (7).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (8).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (9).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (10).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (11).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (12).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (13).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (14).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (15).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (16).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (17).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (18).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (19).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (20).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (21).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (22).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (23).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (24).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (25).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (26).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (27).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (28).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (29).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (30).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (31).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (32).jpg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb.jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (2).webp",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (3).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (3).webp",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (4).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (4).webp",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (5).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (6).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (7).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (8).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (9).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (10).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (11).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (12).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (13).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (14).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (15).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (16).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (17).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (18).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (19).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (20).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (21).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (22).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (23).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (24).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (25).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/bb (26).jpeg",
+               "id":1
+            },
+            {
+               "img":"/images/gallery/fam.jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam.jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam.webp",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (2).jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (2).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (3).jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (3).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (4).jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (4).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (5).jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (5).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (6).jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (6).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (7).jpeg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (7).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/fam (8).jpg",
+               "id":2
+            },            
+            {
+               "img":"/images/gallery/fam (9).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/solo.jpg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo.jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (2).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (2).jpg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (3).jpg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (3).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (4).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (4).jpg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (5).jpg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (5).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (6).jpg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (6).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (7).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (8).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/fam (10).jpg",
+               "id":2
+            },
+            {
+               "img":"/images/gallery/solo (12).jpg",
+               "id":3
+            },            
+            {
+               "img":"/images/gallery/solo (11).jpeg",
+               "id":3
+            },            
+            {
+               "img":"/images/gallery/famm.jpg",
+               "id":2
+            },     
+            {
+               "img":"/images/gallery/solo (9).jpeg",
+               "id":3
+            },
+            {
+               "img":"/images/gallery/solo (10).jpeg",
+               "id":3
+            },            
+            {
+               "img":"/images/gallery/solo (11).jpeg",
+               "id":3
+            }
+         ]
        }
     ]
  }

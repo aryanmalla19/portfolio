@@ -18,7 +18,7 @@ export default function Contact() {
                     <label className='text-main text-xl font-semibold' htmlFor="email">Email</label>
                     <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="email" id="email" name="email" placeholder="youremail@meow.com" required />
                     <br />
-                    <label className='text-main text-xl' htmlFor="message">Message</label>
+                    <label className='text-main font-semibold text-xl' htmlFor="message">Message</label>
                     <textarea className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' id="message" name="message" placeholder="Write your message" required></textarea>
                     <br />
                 <Button name='Send' state={`${true}`}/>

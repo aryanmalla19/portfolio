@@ -11,7 +11,7 @@ import Testimonial from '../component/Testimonial';
 import TwoContainer from '../component/TwoContainer';
 
 export default function Home({data}) {
-
+  console.log(data?(data):"mr")
   return (
     <div>
         <Header />
@@ -29,7 +29,7 @@ export default function Home({data}) {
         <Service />
         <Green title='Where do we start?' para='Schedule a call so I can learn about your product and we can discuss the best way to help you meet your goals' btnText='Schedule A Call' photo='https://varunbhabhra.com/static/media/ctaDoodle1.355d59d69bebcce5ac8ef21be72698c5.svg' />
         <TwoContainer data={data?.images[0]} />
-        <Testimonial data={data?.testimonial} />
+        <Testimonial data={data?(data.testimonial):""} />
         <Contact />
       </div>
       <Footer />

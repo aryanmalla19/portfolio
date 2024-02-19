@@ -11,6 +11,10 @@ module.exports = {
         villa: "#EFEEE5",
         hariyo:'#6CE5B1',
       },
+      fontFamily:{
+        poppins:['poppins','sans-serif'],
+        garamond:['garamond','sans-serif'],
+      },
       scale: {
         '-100': '-1',
       }
