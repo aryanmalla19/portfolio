@@ -9,7 +9,6 @@ import Projects from '../component/Projects';
 import Service from '../component/Service';
 import Testimonial from '../component/Testimonial';
 import TwoContainer from '../component/TwoContainer';
-
 export default function Home({data}) {
   console.log(data?(data):"mr")
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from './Button'
+import { PopupButton } from "react-calendly";
+
 
 export default function Green({title,para,btnText,photo,link}) {
   return (
@@ -9,7 +10,11 @@ export default function Green({title,para,btnText,photo,link}) {
             <p className='mt-6 mb-7 text-center lg:text-left lg:mb-11 text-base lg:text-lg text-main'>
             {para}
             </p>
-            <Button name={btnText} state={`${true}`} link={link}/>
+            <PopupButton className="transition-transform duration-300 transform hover:scale-105 lg:mr-3 mt-3 lg:mt-5 flex justify-center items-center px-10 py-3 w-[300px] lg:w-[340px] font-bold text-base lg:text-xl border-2 border-solid rounded-lg bg-orange border-orange text-white"
+            url="https://calendly.com/aryanmalla19/30min"
+            rootElement={document.getElementById("root")}
+            text="Schedule A Call"
+          />
         </div>
         <div className='w-10/12 mx-auto lg:w-5/12 mt-5 mb-5'>
             <img src={photo} className='md:h-[300px] mx-auto' alt="graphics" />

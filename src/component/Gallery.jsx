@@ -44,7 +44,7 @@ export default function Gallery() {
   return (
     <div className={`w-full`}>
       <h1 className='text-center text-main my-2 font-bold text-3xl md:text-4xl lg:text-6xl'>My Gallery</h1>
-      <div className={`w-full md:w-5/12 mt-6 flex justify-evenly ${loading?"hidden":"block"}`}>
+      <div className={`w-full md:w-5/12 mt-6 flex justify-evenly ${loading ? "hidden" : "block"}`}>
         {categories.map((cat) => (
           <div key={cat.value}>
             <label htmlFor={cat.id}>
@@ -54,28 +54,31 @@ export default function Gallery() {
           </div>
         ))}
       </div>
-      <div class={`p-5 md:p-10 ${loading?"hidden":"block"}`}>
+      <div class={`p-5 md:p-10 ${loading ? "hidden" : "block"}`}>
         <div class="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
           {data?.images[2].gallery.map((e) => {
             if (selectCategories === 0) {
               return (
-                <img src={e.img} alt="img" />
+                <img src={e.img} className='transition-transform duration-300 cursor-pointer transform hover:scale-105' alt="img" />
               )
             } else if (e.id === selectCategories) {
               return (
-                <img src={e.img} alt="img" />
+                <img src={e.img} className='transition-transform duration-300 cursor-pointer transform hover:scale-105' alt="img" />
               )
             }
-            else{
-              return(
+            else {
+              return (
                 <div></div>
               )
             }
           })}
         </div>
       </div>
-      <div className={`flex w-full h-64 justify-center items-center ${loading?"flex":"hidden"}`}>
-          <p className='text-2xl'>Loading...</p>
+      <div className={`flex w-full h-64 justify-center items-center ${loading ? "flex" : "hidden"}`}>
+        <div class="flex justify-center items-center">
+          <div class="animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900"></div>
+        </div>
+
       </div>
     </div>
   )

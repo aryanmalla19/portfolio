@@ -20,10 +20,15 @@ function App() {
 
     fetchData();
   }, []);
-  
+
   // Render loading indicator or empty component while data is being fetched
   if (data === null) {
-    return <div className='w-full h-screen flex justify-center items-center text-5xl'>Loading...</div>;
+    return <div className='w-full h-screen flex justify-center items-center text-5xl'>
+      <div class="flex justify-center items-center">
+        <div class="animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900"></div>
+      </div>
+
+    </div>;
   }
 
   return (

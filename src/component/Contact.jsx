@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button'
 import cartoon from "../assets/cartoon_right.svg"
 
 export default function Contact() {
@@ -11,7 +10,7 @@ export default function Contact() {
                 <img src={cartoon} className='mx-auto' alt="img" />
             </div>
             <div className='lg:w-6/12 w-full'>
-                <form method="post" className='w-11/12 mt-10 mx-auto flex flex-col'>
+                <form action='https://getform.io/f/qaQYPYan' method="post" className='w-11/12 mt-10 mx-auto flex flex-col'>
                     <label className='text-main text-xl font-semibold' htmlFor="name">Name</label>
                     <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="text" id="name" name="name" placeholder="Your name" required />
                     <br />
@@ -21,7 +20,10 @@ export default function Contact() {
                     <label className='text-main font-semibold text-xl' htmlFor="message">Message</label>
                     <textarea className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' id="message" name="message" placeholder="Write your message" required></textarea>
                     <br />
-                <Button name='Send' state={`${true}`}/>
+                    <button class="w-[150px] bg-main h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-orange before:to-orange before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">
+                        Send
+                    </button>
+
                 </form>
             </div>
         </div>
