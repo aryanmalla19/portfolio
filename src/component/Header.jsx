@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import logo from "../assets/R (2).png";
+import React, { useState,useEffect } from 'react';
+import logo from "../assets/R (1).png";
+import logo1 from "../assets/R (2).png"
 import { FaBarsStaggered } from "react-icons/fa6";
 import { IoCloseOutline } from "react-icons/io5";
 import Media from './Media';
@@ -15,29 +16,51 @@ export default function Header() {
   ];
   const [open, setOpen] = useState(false);
   const handleScroll = (id) => {
-    const item = document.getElementById(id);
-    if (item) {
-      window.scrollTo({
-        top: item.offsetTop - 100,
-        behavior: 'smooth'
-      });
-    }
+    setTimeout(() => {
+      const item = document.getElementById(id);
+      if (item) {
+        window.scrollTo({
+          top: item.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      } else {
+        // If the element is not found, scroll to the top of the page after 1 second
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    }, 50); // Delay of 1 second (1000 milliseconds)
   };
-  const [dark, setDark] = useState(false);
+  
+  
 
+  const toggleTheme = () => {
+    document.documentElement.classList.toggle("dark")
+  }
+  useEffect(() => {
+    const handleClassChange = () => {
+        const isDarkMode = document.documentElement.classList.contains('dark');
+        setDark(isDarkMode);
+    };
+    const observer = new MutationObserver(handleClassChange);
+    observer.observe(document.documentElement, { attributes: true });
+    handleClassChange();
+}, []);
+  const [dark, setDark] = useState(false);
   return (
-    <div className={`flex z-[50] w-full bg-villa flex-row sticky top-0 justify-between ${dark?"dark":""}`}>
+    <div className={`flex dark:bg-black z-[50] w-full bg-villa flex-row sticky top-0 justify-between`}>
       <Link className='w-3/12' to='/'>
-        <img className='lg:h-[85px] lg:w-[150px] md:h-[55px] md:w-[110px] w-[80px] h-[40px] lg:mt-2 mt-3 lg:ml-8' src={logo} alt="logo" />
+        <img className='lg:h-[100px] lg:w-[110px] md:h-[55px] md:w-[70px] w-[50px] h-[40px] lg:mt-2 mt-3 lg:ml-8' src={`${dark ?`${logo}` : `${logo1}`}`} alt="logo" />
       </Link>
       <div className='w-9/12 flex justify-end'>
-        <div className={`h-screen flex flex-col duration-300 bg-main fixed top-0 w-8/12 lg:w-4/12 md:w-5/12 xl:w-3/12 transition-all ease-in ${open ? 'right-0 ' : 'right-[-500px]'}`}>
+        <div className={`h-screen dark:bg-black flex flex-col duration-300 bg-main fixed top-0 w-8/12 lg:w-4/12 md:w-5/12 xl:w-3/12 transition-all ease-in ${open ? 'right-0 ' : 'right-[-500px]'}`}>
           <ul className={`flex flex-col mt-20 md:items-center h-auto md:z-auto z-[10] `}>
             {Links.map((link) => (
               <li key={link.name} className='text-xl font-semibold text-center my-4'>
                 <Link
                   to={`/`}
-                  onClick={() => { setOpen(!open); handleScroll(link.link.slice(1)); }} // Pass the id to handleScroll
+                  onClick={() => { setOpen(!open);  handleScroll(link.link.slice(1)); }} // Pass the id to handleScroll
                   className='text-villa hover:text-orange duration-500'
                 >
                   {link.name}
@@ -58,7 +81,7 @@ export default function Header() {
         <div className='flex z-[50] items-center justify-between py-4 md:px-10 px-7'>
           <div class="toggle-switch mx-4 pt-1 md:mx-10 md:pt-2">
             <label class="switch-label">
-              <input type="checkbox" onClick={() => { setDark(!dark) }} class="checkbox" />
+              <input type="checkbox" onClick={toggleTheme} class="checkbox" />
               <span class="slider"></span>
             </label>
           </div>

@@ -2,10 +2,11 @@ import React from 'react'
 import Gallery from '../component/Gallery'
 import Header from '../component/Header'
 
-export default function Gallery_page({data}) {
+document.documentElement.classList.toggle("dark")
+export default function Gallery_page() {
   return (
-    <div>
-        <Header/>
+    <div className='dark:bg-black'>
+        <Header />
         <Gallery />
     </div>
   )

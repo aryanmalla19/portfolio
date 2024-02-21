@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import GalleryPage from './pages/GalleryPage';
 
+document.documentElement.classList.remove('dark')
+
 function App() {
   const [data, setData] = useState(null); // Initialize state with null
 

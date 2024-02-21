@@ -12,11 +12,11 @@ import TwoContainer from '../component/TwoContainer';
 export default function Home({data}) {
   console.log(data?(data):"mr")
   return (
-    <div>
+    <div className='dark:bg-black'>
         <Header />
-      <div className='bg-villa w-11/12 mx-auto'>
+      <div className='bg-villa dark:bg-black dark:text-white w-11/12 mx-auto'>
         <Landing />
-        <div className='flex flex-col lg:flex-row mb-20 justify-between'>
+        <div className='flex dark:bg-black dark:text-white flex-col lg:flex-row mb-20 justify-between'>
           <div className='lg:w-5/12'>
             <Client />
           </div>
