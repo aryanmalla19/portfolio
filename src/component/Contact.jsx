@@ -4,7 +4,6 @@ import cartoon1 from "../assets/3.png";
 
 export default function Contact() {
     const [dark, setDark] = useState(false);
-
     useEffect(() => {
         const handleClassChange = () => {
             const isDarkMode = document.documentElement.classList.contains('dark');
@@ -17,6 +16,29 @@ export default function Contact() {
             observer.disconnect();
         };
     }, []);
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    const handleSubmit = (e) => {
+        console.log(formData);
+        setTimeout(() => {
+            setFormData({
+                name: '',
+                email: '',
+                message: '',
+            });
+        }, 100);
+    };
 
     return (
         <div id='contact' className='flex lg:flex-row flex-col justify-evenly my-24'>
@@ -26,17 +48,17 @@ export default function Contact() {
                 <img src={dark ? cartoon1 : cartoon} className='mx-auto' alt="img" />
             </div>
             <div className='lg:w-6/12 w-full'>
-                <form action='https://getform.io/f/qaQYPYan' method="post" className='w-11/12 mt-10 mx-auto flex flex-col'>
+                <form action='https://getform.io/f/qaQYPYan' method="post" className='w-11/12 mt-10 mx-auto flex flex-col' onSubmit={handleSubmit}>
                     <label className='text-main dark:text-white text-xl font-semibold' htmlFor="name">Name</label>
-                    <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="text" id="name" name="name" placeholder="Your name" required />
+                    <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="text" id="name" name="name" placeholder="Your name" value={formData.name} onChange={handleChange} required />
                     <br />
                     <label className='text-main dark:text-white text-xl font-semibold' htmlFor="email">Email</label>
-                    <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="email" id="email" name="email" placeholder="youremail@meow.com" required />
+                    <input className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' type="email" id="email" name="email" placeholder="youremail@meow.com" value={formData.email} onChange={handleChange} required />
                     <br />
                     <label className='text-main dark:text-white font-semibold text-xl' htmlFor="message">Message</label>
-                    <textarea className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' id="message" name="message" placeholder="Write your message" required></textarea>
+                    <textarea className='p-3 my-2 bg-villa border-2 rounded-lg text-base border-main' id="message" name="message" placeholder="Write your message" value={formData.message} onChange={handleChange} required></textarea>
                     <br />
-                    <button className="w-[150px] bg-main h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-orange before:to-orange before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">
+                    <button type="submit" className="w-[150px] bg-main h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-orange before:to-orange before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">
                         Send
                     </button>
                 </form>
