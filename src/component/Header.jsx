@@ -79,10 +79,10 @@ export default function Header() {
           </div>
         </div>
         <div className='flex z-[50] items-center justify-between py-4 md:px-10 px-7'>
-          <div class="toggle-switch mx-4 pt-1 md:mx-10 md:pt-2">
-            <label class="switch-label">
-              <input type="checkbox" onClick={toggleTheme} class="checkbox" />
-              <span class="slider"></span>
+          <div className="toggle-switch mx-4 pt-1 md:mx-10 md:pt-2">
+            <label className="switch-label">
+              <input type="checkbox" onClick={toggleTheme} className="checkbox" />
+              <span className="slider"></span>
             </label>
           </div>
           <div onClick={() => setOpen(!open)} className='z-[50] text-3xl sticky right-8 top-6 cursor-pointer h-[30px] justify-center items-center'>

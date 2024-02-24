@@ -10,7 +10,6 @@ import Service from '../component/Service';
 import Testimonial from '../component/Testimonial';
 import TwoContainer from '../component/TwoContainer';
 export default function Home({data}) {
-  console.log(data?(data):"mr")
   return (
     <div className='dark:bg-black'>
         <Header />
