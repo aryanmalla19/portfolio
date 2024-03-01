@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
+import { ApiContext } from '../api/ApiContext';
 
-export default function Gallery({ data }) {
+export default function Gallery() {
+ const data = useContext(ApiContext);
   const categories = [
     {
       value: '0',
@@ -26,14 +28,15 @@ export default function Gallery({ data }) {
   const [selectedImage, setSelectedImage] = useState({ img: '', i: 0 });
   const [galleryImages, setGalleryImages] = useState([]);
 
+
   useEffect(() => {
-    if (data !== undefined) {
-      setTimeout(() => {
-        setGalleryImages(data.images[2].gallery);
-        setLoading(false);
-      }, 1000);
+    if (data && data.images && data.images.length > 2) {
+      setGalleryImages(data.images[2].gallery);
+      setLoading(false);
     }
   }, [data]);
+  
+
 
   const handleChange = (e) => {
     setSelectCategories(parseInt(e.target.value));
@@ -46,10 +49,6 @@ export default function Gallery({ data }) {
   const closeImage = () => {
     setSelectedImage({ img: '', i: 0 });
   };
-
-  if (loading) {
-    return null; // Don't render anything while loading
-  }
 
   return (
     <div className={`w-full`}>

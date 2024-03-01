@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Button from './Button'
+import { ApiContext } from '../api/ApiContext'
 
-export default function Projects(data) {
-  const projects_data = data.data
+export default function Projects() {
+  const apiData = useContext(ApiContext);
+  const [data,setData] = useState();
+  useEffect(()=>{
+    if(apiData?.images){
+      setData(apiData.projects)
+    }
+  },[apiData])
   return (
     <div className='md:w-9/12 md:mx-auto mt-14 md:mt-0'>
-      {projects_data?.map((e) => {
+      {data?.map((e) => {
         return (
           <div key={e.title} className='md:mb-20 text-center md:text-left mb-8 transition-transform duration-300 transform hover:scale-105'>
             <img className='w-full' src={e.img} alt="" />
