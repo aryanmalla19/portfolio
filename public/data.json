@@ -1,5 +1,11 @@
 {
     "projects":[
+      {
+         "img":"/images/projects/hooBank.png",
+         "title":"BLSO NEPAL",
+         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "a":"https://blso.vercel.app/"
+      },
        {
           "img":"/images/projects/hooBank.png",
           "title":"HooBank",
