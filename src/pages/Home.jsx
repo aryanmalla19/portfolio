@@ -8,6 +8,9 @@ import Projects from '../component/Projects';
 import Service from '../component/Service';
 import Testimonial from '../component/Testimonial';
 import TwoContainer from '../component/TwoContainer';
+import cartoon from "../assets/2.png";
+import cartoon2 from "../assets/1.png";
+
 export default function Home() {
 
   return (
@@ -23,10 +26,10 @@ export default function Home() {
             <Projects />
           </div>
         </div>
-        <Green title='Redesign your existing website?' para='Schedule a call so I can learn about your product and we can discuss the best way to help you meet your goals.' btnText='Schedule A Call' photo='https://varunbhabhra.com/static/media/ctaDoodle2.cf395dd10c91bff7c8b40dce11314e1c.svg' />
+        <Green title='Redesign your existing website?' para='Schedule a call so I can learn about your product and we can discuss the best way to help you meet your goals.' btnText='Schedule A Call' photo={cartoon2} />
         <Service />
-        <Green title='Where do we start?' para='Schedule a call so I can learn about your product and we can discuss the best way to help you meet your goals' btnText='Schedule A Call' photo='https://varunbhabhra.com/static/media/ctaDoodle1.355d59d69bebcce5ac8ef21be72698c5.svg' />
         <TwoContainer />
+        <Green title='Where do we start?' para='Schedule a call so I can learn about your product and we can discuss the best way to help you meet your goals' btnText='Schedule A Call' photo={cartoon} />
         <Testimonial />
         <Contact />
       </div>

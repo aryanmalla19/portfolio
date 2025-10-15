@@ -1,35 +1,41 @@
 {
     "projects":[
       {
+         "img":"/images/projects/stocksense.svg",
+         "title":"StockSense",
+         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "a":"https://blso.vercel.app/"
+      },
+      {
+         "img":"/images/projects/shree.svg",
+         "title":"Shree Airlines Offical B2C",
+         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "a":"https://blso.vercel.app/"
+      },
+      {
+         "img":"/images/projects/camo.svg",
+         "title":"CAMO",
+         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "a":"https://blso.vercel.app/"
+      },
+      {
          "img":"/images/projects/realBlso.png",
          "title":"BLSO NEPAL",
          "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
          "a":"https://blso.vercel.app/"
       },
-       {
-          "img":"/images/projects/hooBank.png",
-          "title":"HooBank",
-          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
-          "a":"https://aryanmalla19.github.io/hooBank_react"
-       },
-       {
-          "img":"/images/projects/gpt3.png",
-          "title":"OpenAI- GPT3",
-          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
-          "a":"https://aryanmalla19.github.io/gpt3_react"
-       },
-       {
+      {
           "img":"/images/projects/hema.png",
           "title":"Hemaj Online Shoping",
           "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
           "a":"https://aryanmalla19.github.io/hema"
-       },
-       {
-          "img":"/images/projects/bitcoin.png",
-          "title":"Bitcoin Blog",
-          "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
-          "a":"https://aryanmalla19.github.io/bitcoin_website"
-       },
+      },
+      {
+         "img":"/images/projects/bitcoin.png",
+         "title":"Bitcoin Blog",
+         "details":"I’ve worked with some great clients, but I won’t blab about them all. Here are a few best bits.",
+         "a":"https://aryanmalla19.github.io/bitcoin_website"
+      },
        {
           "img":"/images/projects/camponthecourt.png",
           "title":"Camp On The Court",
@@ -66,8 +72,8 @@
     "images":[
        {
           "skills":[
-             {
-                "img":"/images/skills/html.svg"
+            {
+                "img":"/images/skills/laravel.svg"
              },
              {
                 "img":"/images/skills/js.svg"
@@ -92,6 +98,12 @@
              },
              {
                 "img":"/images/skills/figma.svg"
+             },
+             {
+                "img":"/images/skills/php.svg"
+             },
+             {
+                "img":"/images/skills/gitlab.svg"
              }
           ]
        },

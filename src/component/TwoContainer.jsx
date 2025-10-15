@@ -32,7 +32,10 @@ export default function TwoContainer() {
           <h1 className='text-4xl text-center lg:text-6xl text-main dark:text-orange font-bold mb-7'>About</h1>
           <p className='text-base text-justify dark:text-white text-main'>Hey👋, I'm Aryan Malla Thakuri! I'm a self-taught developer & designer from Kathmandu, Nepal, who is really into unique designs, user experience and writing clean code.
             <br /> <br />
-            Speaking of myself while studying at Sunway College (Surprise!), web development crossed my way and since then my journey as a developer begun. Currently I'm working as a freelance developer, I've always taken deep interest in designing and developing beautiful websites for my clients which focus on providing the best experience for everyone using them. Designing is something that needs patience, effort and time. I am here to give in all of it and make sure that my work becomes my identity. Being a minimalist, my belief is to make things simple and very specific. I'm open to learning and working my level best to make the results near to perfect.</p>
+            Speaking of myself, while studying at Sunway College (Surprise!), web development crossed my path and that’s where my journey as a developer truly began. I’ve since grown into a passionate and detail-oriented developer, currently working at Mantra IT Solution. Over time, I’ve developed a deep interest in designing and building beautiful, user-centered websites that deliver the best possible experience.
+
+            Designing, to me, is an art that requires patience, effort, and time and I’m all in for it. My work is my identity, and as a minimalist, I believe in keeping things simple, clean, and purposeful. I’m always open to learning, improving, and pushing myself to make every project as close to perfect as it can be.
+            </p>
 
           <div className='my-8 items-center flex flex-col md:flex-row w-full justify-between'>
             <a href="https://github.com/aryanmalla19" target='_blank' rel="noreferrer">
