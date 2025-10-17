@@ -4,19 +4,19 @@
          "img":"/images/projects/stocksense.svg",
          "title":"StockSense",
          "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
-         "a":"https://blso.vercel.app/"
+         "a":"https://stocksense.me/"
       },
       {
          "img":"/images/projects/shree.svg",
          "title":"Shree Airlines Offical B2C",
          "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
-         "a":"https://blso.vercel.app/"
+         "a":"https://demob2c.shreeairlines.com/"
       },
       {
          "img":"/images/projects/camo.svg",
          "title":"CAMO",
          "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
-         "a":"https://blso.vercel.app/"
+         "a":"https://camo.shreeairlines.com/"
       },
       {
          "img":"/images/projects/realBlso.png",
