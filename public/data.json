@@ -3,19 +3,19 @@
       {
          "img":"/images/projects/stocksense.svg",
          "title":"StockSense",
-         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "details":"A platform for learning how to trade stocks.",
          "a":"https://stocksense.me/"
       },
       {
          "img":"/images/projects/shree.svg",
          "title":"Shree Airlines Offical B2C",
-         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "details":"Shree Airlines offical website for issuing tickets and manage bookings.",
          "a":"https://demob2c.shreeairlines.com/"
       },
       {
          "img":"/images/projects/camo.svg",
          "title":"CAMO",
-         "details":"I've made website for oraganzation for BLSO Nepal using React and Tailwind CSS.",
+         "details":"Continuing airworthiness management organisation (CAMO) is a civil aviation organization authorized to schedule and control continuing airworthiness activities on aircraft and their parts.",
          "a":"https://camo.shreeairlines.com/"
       },
       {
